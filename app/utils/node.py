@@ -1,5 +1,5 @@
 from app.chains.rag_chain import retriever, chain
-from app.utils.tools import web_tool
+from app.utils.tools import web_tool, save_tool
 from app.utils.state import State
 
 
@@ -34,3 +34,12 @@ def web_node(State):
         "response": response,
         "resource": "web - search"
     }
+    
+    
+def save_node(State):
+    save_tool(State['question'], State['response'], State['resource'])
+    return {
+        "response":State['response'],
+        "resource":State['resource']
+    }
+    
