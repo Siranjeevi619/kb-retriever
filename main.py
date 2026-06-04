@@ -1,19 +1,18 @@
 from app.chains.rag_chain import chain, retriever
+from app.chains.rag_graph import graph
 
 while True:
-    question = input("You :")
+    question = input("You:")
     if question in ["bye", "exit", "tata"]:
         print("Good Bye Master Wayne")
         exit()
-    docs = retriever.invoke(question)
-    context = "\n\n".join(
-        doc.page_content
-        for doc in docs
-    )
-
-    response = chain.invoke({
-        "context": context,
-        "question": question
+        
+    response =  graph.invoke({
+        "question":question
     })
-
-    print("\nBot:", response.content)
+    
+    print(
+    "Bot:",
+    response["response"],
+    f"\nSource: {response['resource']}"
+    )

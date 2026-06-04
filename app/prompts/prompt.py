@@ -1,15 +1,15 @@
 from langchain_core.prompts import ChatPromptTemplate
 
 prompt = ChatPromptTemplate.from_template(
-"""
-You are a helpful assistant.
+    """
+    You are a helpful assistant.
 
-Answer the question only from the context.
+    Answer the question only from the context.
 
-Context:
-{context}
+    Context:
+    {context}
 
-Question:
-{question}
-"""
+    Question:
+    {question}
+    """
 )
