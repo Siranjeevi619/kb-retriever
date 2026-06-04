@@ -1,0 +1,13 @@
+.env
+__pycache__
+.idea
+.venv
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+save_index/
+faiss_index/
