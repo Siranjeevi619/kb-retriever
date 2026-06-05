@@ -75,3 +75,33 @@ Answer: snippet: Jesus, also referred to as Jesus Christ, Jesus of Nazareth, and
 Source: web - search
 
 ==================================================
+
+Question: hi
+Answer: Hello. It's nice to meet you. If you need assistance with something or just want to chat, feel free to let me know and I'll do my best to help.
+Source: web-search
+
+==================================================
+
+Question: who won ipl 2026
+Answer: The winner of the 2026 Indian Premier League (IPL) is the Royal Challengers Bengaluru. They successfully defended their title by defeating the Gujarat Titans in the final at the Narendra Modi Stadium in Ahmedabad, winning by five wickets. This achievement marks them as only the third team in IPL history to defend the title successfully.
+Source: web-search
+
+==================================================
+
+Question: who is cm of tamil nadu
+Answer: The current Chief Minister of Tamil Nadu is Vijay, also referred to as Thalapathy, who was sworn in as the chief minister in May 2026. He leads the state as the head of the Tamilaga Vettri Kazhagam (TVK) party. This information is based on the latest available data from web search results.
+Source: web-search
+
+==================================================
+
+Question: who is sport minister of tamil naud
+Answer: The current Sports Minister of Tamil Nadu is Udhayanidhi Stalin, as per the latest available information.
+Source: web-search
+
+==================================================
+
+Question: what are sport award win by ajith kumar recently
+Answer: Ajith Kumar has recently won several sports awards in the field of racing. His team, Ajith Kumar Racing, has participated in four international racing championships, securing multiple laurels and podium finishes, including a win at the Dubai 24H in January. Ajith Kumar was also honored with the 'Gentleman Driver of the Year 2025' award by the SRO Motorsports Group and the prestigious Philippe Charriol Award for Gentleman Driver of the Year. Additionally, he secured a third-place finish in the 24H series, earning recognition and praise from Udhayanidhi for his support of Tamil Nadu's sports mission and global representation. These achievements demonstrate Ajith Kumar's successful return to the racing circuit after a 15-year hiatus.
+Source: web-search
+
+==================================================

@@ -1,6 +1,6 @@
-from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
 
 from app.config.config import Config
 
-llm = ChatOllama(model = Config.model)
+llm = ChatGroq(model = Config.model , groq_api_key = Config.groq_api)
 

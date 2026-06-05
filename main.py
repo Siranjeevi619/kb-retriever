@@ -1,4 +1,3 @@
-from app.chains.rag_chain import chain, retriever
 from app.chains.rag_graph import graph
 
 while True:
@@ -7,8 +6,8 @@ while True:
         print("Good Bye Master Wayne")
         exit()
         
-    response =  graph.invoke({
-        "question":question
+    response = graph.invoke({
+        "question": question
     })
     
     print(
